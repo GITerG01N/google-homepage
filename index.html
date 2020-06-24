@@ -2,31 +2,73 @@
 <html>
     <head>
         <style>
+            #ul1 {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                display: flex;
+                float: right;
+                padding: 10px 0px;
+                margin-top: 5px;
+                margin-right: 20px;
+                font-family: Arial, sans-serif;
+                font-size: 13px;
+            }
+            .a1 {
+                color: black;
+                text-align: center;
+                text-decoration: none;
+                padding: 10px;
+            }
+            #sign_in {
+                border: 0px;
+                border-radius: 2px;
+                background-color: #4285f4;
+                color: white;
+                font-weight: bold;
+                padding: 6px;
+                padding-right: 11px;
+                padding-left: 11px;
+            }
             #logo {
                 display: flex;
                 margin: auto;
                 justify-content: center;
                 padding-top: 109px;
+                width: 100%;
+                padding-bottom: 25px;
             }
             #search_container {
                 display: flex;
                 margin-top: 25px;
                 justify-content: center;
+                border: 1px solid rgb(223, 225, 229);
+                border-radius: 50px;
+                width: 575px;
+                height: 43px;
+                margin: auto;
+                align-items: center;
+            }
+            #search_bar {
+                border: 0px;
+                width: 85%;
+                height: 50%;
             }
         </style>
     </head>
     <body>
-        <ul>
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li><a href="#">Google apps</a></li>
-            <li><a href="#">Sign In</a></li>
+        <ul id="ul1">
+            <li><a href="#" class="a1">Gmail</a></li>
+            <li><a href="#" class="a1">Images</a></li>
+            <li><a href="#" class="a1">Google apps</a></li>
+            <li><a href="#" id="sign_in" class="a1">Sign In</a></li>
         </ul>
         <div id="logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
         </div>
         <div id="search_container">
-            <input type="text">
+            <input type="text" id="search_bar">
         </div>
     </body>
 </html>
