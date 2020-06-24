@@ -1,0 +1,1 @@
+This project is an attempt to create clone of Googles homepeage. It will test what i have learned so far and help broaden my web development abilities. YOU GOT THIS!!!1!111!
