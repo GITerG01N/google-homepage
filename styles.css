@@ -17,6 +17,9 @@
     text-decoration: none;
     padding: 10px;
 }
+#icons {
+    color: rgb(95, 99, 104);
+}
 #sign_in {
     border: 0px;
     border-radius: 2px;
